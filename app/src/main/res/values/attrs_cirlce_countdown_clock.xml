@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="CirlceCountdownClock">
+        <attr name="android:text" format="string" />
+    </declare-styleable>
+</resources>

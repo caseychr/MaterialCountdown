@@ -1,0 +1,48 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24">
+            <path
+                android:name="path"
+                android:pathData="M 8 8 L 16 8.055 L 15.014 16 L 9.041 16 Z"
+                android:fillColor="#000000"
+                android:strokeColor="#979797"
+                android:strokeWidth="0.1"/>
+            <path
+                android:name="path_1"
+                android:pathData="M 9.973 15.014 L 9.973 8.877 L 10.904 8.877 L 10.904 15.014 Z"
+                android:fillColor="#ffffff"
+                android:strokeColor="#979797"
+                android:strokeWidth="0.1"/>
+            <path
+                android:name="path_2"
+                android:pathData="M 12.932 15.014 L 12.932 8.986 L 13.918 8.986 L 13.918 15.014 Z"
+                android:fillColor="#ffffff"
+                android:strokeColor="#979797"
+                android:strokeWidth="0.1"/>
+            <path
+                android:name="path_3"
+                android:pathData="M 6.987 7.89 L 7.973 7.013 L 15.973 7.013 L 17.014 8 Z"
+                android:fillColor="#000000"
+                android:strokeColor="#979797"
+                android:strokeWidth="0.1"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="path_3">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="100"
+                android:valueFrom="M 6.987 7.89 L 7.973 7.013 L 15.973 7.013 L 17.014 8 Z"
+                android:valueTo="M 7.595 7.947 L 8.132 6.741 L 15.423 3.448 L 16.778 3.919 Z"
+                android:valueType="pathType"
+                android:interpolator="@android:anim/accelerate_interpolator"/>
+        </aapt:attr>
+    </target>
+</animated-vector>
